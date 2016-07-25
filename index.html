@@ -20,9 +20,7 @@
 
     <section class="main-content">
       <h1>
-<a id="wp-install" class="anchor" href="#wp-install" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>wp-install</h1>
-
-<p>Fastest WP Installation</p>
+<a id="quick-wordpress-installation-using-wp-cli" class="anchor" href="#quick-wordpress-installation-using-wp-cli" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Quick Wordpress Installation using WP CLI</h1>
 
 <h2>
 <a id="prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Prerequisites</h2>
@@ -40,7 +38,12 @@
 <p><code>wp core download</code></p>
 
 <h3>
-<a id="2-install-wordpress" class="anchor" href="#2-install-wordpress" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. Install Wordpress</h3>
+<a id="2-create-database" class="anchor" href="#2-create-database" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. Create Database</h3>
+
+<p>Log in PHPmyadmin and create UTF-8 General CI database.</p>
+
+<h3>
+<a id="3-install-wordpress" class="anchor" href="#3-install-wordpress" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. Install Wordpress</h3>
 
 <p>First, run the following command to create wp-config.php file.</p>
 
@@ -50,10 +53,10 @@
 
 <p>Next, we use wp core install command to install WordPress. This commands the following parameters:</p>
 
-<p>--url The website address url, e.g. http://localhost:8888/wordpress/.
---title The website title, e.g. My Blog.
---admin_user The admin username. It should be all in lowercase, e.g. admin.
---admin_password
+<p>--url The website address url, e.g. http://localhost:8888/wordpress/.<br>
+--title The website title, e.g. My Blog.<br>
+--admin_user The admin username. It should be all in lowercase, e.g. admin.<br>
+--admin_password<br>
 --admin_email</p>
 
 <p>Type the command below. Swap the parameters value as per your own setup.</p>
