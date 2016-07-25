@@ -1,0 +1,6 @@
+{
+  "name": "Wp-install",
+  "tagline": "Fastest WP Installation",
+  "body": "# wp-install\r\nFastest WP Installation\r\n\r\n## Prerequisites\r\nInstall WP-CLI: https://wp-cli.org/docs/installing/\r\n\r\n\r\n***\r\n\r\n\r\n## Steps\r\n\r\n### 1. Download Wordpress\r\n`wp core download`\r\n\r\n### 2. Install Wordpress\r\nFirst, run the following command to create wp-config.php file.\r\n\r\n`wp core config --dbname=wordpress --dbuser=root --dbpass=root`\r\n\r\nThe above command assumes that, you previously have created a database named wordpress. Change the database name with the one that you have created for the WordPress site.\r\n\r\nNext, we use wp core install command to install WordPress. This commands the following parameters:\r\n\r\n--url The website address url, e.g. http://localhost:8888/wordpress/.\r\n--title The website title, e.g. My Blog.\r\n--admin_user The admin username. It should be all in lowercase, e.g. admin.\r\n--admin_password\r\n--admin_email\r\n\r\nType the command below. Swap the parameters value as per your own setup.\r\n\r\n`wp core install --url=http://localhost.dev/ --title=WordPress --admin_user=myusername --admin_password=mypassword --admin_email=name@gmail.com`\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
