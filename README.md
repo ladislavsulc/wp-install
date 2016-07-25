@@ -23,9 +23,13 @@ The above command assumes that, you previously have created a database named wor
 Next, we use wp core install command to install WordPress. This commands the following parameters:
 
 --url The website address url, e.g. http://localhost:8888/wordpress/.
+
 --title The website title, e.g. My Blog.
+
 --admin_user The admin username. It should be all in lowercase, e.g. admin.
+
 --admin_password
+
 --admin_email
 
 Type the command below. Swap the parameters value as per your own setup.
