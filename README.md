@@ -13,7 +13,7 @@ Install WP-CLI: https://wp-cli.org/docs/installing/
 `wp core download`
 
 ### 2. Create Database
-Log in PHPmyadmin and create utf8_general_ci database.
+Log into PHPmyadmin and create utf8_general_ci database.
 
 ### 3. Install Wordpress
 First, run the following command to create wp-config.php file.
