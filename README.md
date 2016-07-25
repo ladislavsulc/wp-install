@@ -31,3 +31,7 @@ Next, we use wp core install command to install WordPress. This commands the fol
 Type the command below. Swap the parameters value as per your own setup.
 
 `wp core install --url=http://localhost.dev/ --title=WordPress --admin_user=myusername --admin_password=mypassword --admin_email=name@gmail.com`
+
+### 3. Install optional language(s)
+
+`wp core language install cs_CZ`
